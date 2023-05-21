@@ -1,0 +1,13 @@
+@import url('./main-layout.css');
+@import url('./views/usuario-view.css');
+@import url('./views/direccion-view.css');
+@import url('./views/datosbancarios-view.css');    html {
+      --lumo-primary-color: hsl(117, 100%, 18%);
+      --lumo-primary-color-50pct: hsla(117, 100%, 18%, 0.5);
+      --lumo-primary-color-10pct: hsla(117, 100%, 18%, 0.1);
+
+    }
+
+    [theme~="dark"] {
+
+    }
