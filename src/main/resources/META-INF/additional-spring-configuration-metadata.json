@@ -1,0 +1,377 @@
+{"properties": [
+  {
+    "name": "usuario.id.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.id.api.descripcion'"
+  },
+  {
+    "name": "usuario.nombre.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nombre.api.descripcion'"
+  },
+  {
+    "name": "usuario.apellido1.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.apellido1.api.descripcion'"
+  },
+  {
+    "name": "usuario.apellido2.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.apellido2.api.descripcion'"
+  },
+  {
+    "name": "usuario.dni.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.dni.api.descripcion'"
+  },
+  {
+    "name": "usuario.nie.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nie.api.descripcion'"
+  },
+  {
+    "name": "usuario.nacionalidad.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nacionalidad.api.descripcion'"
+  },
+  {
+    "name": "usuario.email.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.email.api.descripcion'"
+  },
+  {
+    "name": "usuario.fechanacimiento.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.fechanacimiento.api.descripcion'"
+  },
+  {
+    "name": "usuario.nombreusuario.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nombreusuario.api.descripcion'"
+  },
+  {
+    "name": "usuario.telefonos.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.telefonos.api.descripcion'"
+  },
+  {
+    "name": "usuario.datosbancarios.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.datosbancarios.api.descripcion'"
+  },
+  {
+    "name": "usuario.direcciones.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.direcciones.api.descripcion'"
+  },
+  {
+    "name": "usuario.model.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.model.descripcion'"
+  },
+  {
+    "name": "usuario.controller.titulo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.controller.titulo'"
+  },
+  {
+    "name": "datosbancarios.controller.titulo",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.controller.titulo'"
+  },
+  {
+    "name": "direccion.controller.titulo",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.controller.titulo'"
+  },
+  {
+    "name": "usuario.fechanacimiento.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.fechanacimiento.ejemplo'"
+  },
+  {
+    "name": "usuario.nombreusuario.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nombreusuario.ejemplo'"
+  },
+  {
+    "name": "usuario.telefonos.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.telefonos.ejemplo'"
+  },
+  {
+    "name": "usuario.email.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.email.ejemplo'"
+  },
+  {
+    "name": "usuario.nacionalidad.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nacionalidad.ejemplo'"
+  },
+  {
+    "name": "usuario.dni.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.dni.ejemplo'"
+  },
+  {
+    "name": "usuario.nie.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nie.ejemplo'"
+  },
+  {
+    "name": "usuario.apellido2.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.apellido2.ejemplo'"
+  },
+  {
+    "name": "usuario.apellido1.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.apellido1.ejemplo'"
+  },
+  {
+    "name": "usuario.nombre.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.nombre.ejemplo'"
+  },
+  {
+    "name": "usuario.id.ejemplo",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.id.ejemplo'"
+  },
+  {
+    "name": "usuario.controller.id.param.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.controller.id.param.descripcion'"
+  },
+  {
+    "name": "usuario.controller.recuperarusuariorandom.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.controller.recuperarusuariorandom.descripcion'"
+  },
+  {
+    "name": "usuario.controller.recuperardatosbancariosrandom.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.controller.recuperardatosbancariosrandom.descripcion'"
+  },
+  {
+    "name": "usuario.controller.recuperardireccionrandom.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.controller.recuperardireccionrandom.descripcion'"
+  },
+  {
+    "name": "datosbancarios.controller.recuperardatosbancariosrandom.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.controller.recuperardatosbancariosrandom.descripcion'"
+  },
+  {
+    "name": "direccion.controller.recuperardireccionrandom.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.controller.recuperardireccionrandom.descripcion'"
+  },
+  {
+    "name": "datosbancarios.model.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.model.descripcion'"
+  },
+  {
+    "name": "datosbancarios.entidad.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.entidad.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.iban.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.iban.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.numeroTarjeta.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.numeroTarjeta.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.fechaCaducidad.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.fechaCaducidad.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.cvv.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.cvv.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.nombreTitular.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.nombreTitular.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.numerotarjeta.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.numerotarjeta.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.fechacaducidad.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.fechacaducidad.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.nombretitular.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.nombretitular.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.id.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.id.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.tipovia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.tipovia.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.nombrevia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.nombrevia.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.numerovia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.numerovia.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.numeropiso.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.numeropiso.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.letrapiso.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.letrapiso.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.pais.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.pais.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.comunidadautonoma.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.comunidadautonoma.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.provincia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.provincia.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.municipio.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.municipio.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.codigopostal.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.codigopostal.api.descripcion'"
+  },
+  {
+    "name": "datosbancarios.entidad.id.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.entidad.id.descripcion'"
+  },
+  {
+    "name": "direccion.model.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.model.descripcion'"
+  },
+  {
+    "name": "direccion.id.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.id.api.descripcion'"
+  },
+  {
+    "name": "direccion.tipovia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.tipovia.api.descripcion'"
+  },
+  {
+    "name": "direccion.numerovia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.numerovia.api.descripcion'"
+  },
+  {
+    "name": "direccion.nombrevia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.nombrevia.api.descripcion'"
+  },
+  {
+    "name": "direccion.numeropiso.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.numeropiso.api.descripcion'"
+  },
+  {
+    "name": "direccion.letrapiso.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.letrapiso.api.descripcion'"
+  },
+  {
+    "name": "direccion.pais.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.pais.api.descripcion'"
+  },
+  {
+    "name": "direccion.comunidadautonoma.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.comunidadautonoma.api.descripcion'"
+  },
+  {
+    "name": "direccion.provincia.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.provincia.api.descripcion'"
+  },
+  {
+    "name": "direccion.municipio.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.municipio.api.descripcion'"
+  },
+  {
+    "name": "direccion.codigopostal.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.codigopostal.api.descripcion'"
+  },
+  {
+    "name": "usuario.controller.endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.controller.endpoint'"
+  },
+  {
+    "name": "datosbancarios.controller.endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.controller.endpoint'"
+  },
+  {
+    "name": "direccion.controller.endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.controller.endpoint'"
+  },
+  {
+    "name": "usuario.controller.parent.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'usuario.controller.parent.uri'"
+  },
+  {
+    "name": "datosbancarios.controller.parent.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.controller.parent.uri'"
+  },
+  {
+    "name": "direccion.controller.parent.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.controller.parent.uri'"
+  },
+  {
+    "name": "direccion.controller.parent.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'direccion.controller.parent.uri'"
+  }
+]}
