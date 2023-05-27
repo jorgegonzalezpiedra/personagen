@@ -1,7 +1,6 @@
 package com.personagen.model.entity.datosbancarios;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -14,7 +13,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Data
-@Document(collection = "datosbancarios")
 @ApiModel(description = "${usuario.id.api.descripcion}")
 public class DatosBancarios {
 

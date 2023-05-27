@@ -4,10 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.mongodb.MongoException;
 import com.personagen.generadorrandom.Randomizar;
 import com.personagen.model.entity.datosbancarios.DatosBancarios;
 import com.personagen.model.entity.direccion.Direccion;
@@ -17,7 +15,7 @@ import com.personagen.model.entity.usuario.Usuario;
 public class UsuarioServiceImpl implements UsuarioService {
 
 	@Override
-	public Usuario recuperarUsuarioRandom() throws DataAccessException, MongoException {
+	public Usuario recuperarUsuarioRandom() throws Exception {
 
 		Usuario usuario = Randomizar.usuarioRandom();
 

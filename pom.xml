@@ -8,19 +8,15 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.restmongo</groupId>
-	<artifactId>crudUsuariosMongoRest</artifactId>
+	<groupId>com.personagen</groupId>
+	<artifactId>personaGenRest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>crudUsuariosMongoRest</name>
-	<description>API REST para la gestion de usuarios en una BBDD MongoDB</description>
+	<name>personaGenRest</name>
+	<description>API REST para la generacion aleatoria de datos de usuario</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
@@ -33,7 +29,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -111,6 +106,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-resources-plugin</artifactId>
+			    <version>3.1.0</version>
+			</plugin>  
 		</plugins>
 	</build>
 

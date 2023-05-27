@@ -3,8 +3,6 @@ package com.personagen.model.entity.usuario;
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.personagen.model.entity.datosbancarios.DatosBancarios;
 import com.personagen.model.entity.direccion.Direccion;
@@ -20,7 +18,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Data
-@Document(collection = "usuarios")
 @ApiModel(description = "${usuario.id.api.descripcion}")
 public class Usuario {
 
@@ -59,11 +56,9 @@ public class Usuario {
 	private List<String> telefonos;
 
 	@ApiModelProperty(value = "${usuario.direcciones.api.descripcion}")
-	@DBRef
 	private List<Direccion> direcciones;
 
 	@ApiModelProperty(value = "${usuario.datosbancarios.api.descripcion}")
-	@DBRef
 	private List<DatosBancarios> datosBancarios;
 
 }

@@ -1,7 +1,6 @@
 package com.personagen.model.entity.direccion;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -13,7 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Data
-@Document(collection = "direcciones")
 public class Direccion {
 
 	@ApiModelProperty(value = "${direccion.id.api.descripcion}", position = 1, example = "19288")
