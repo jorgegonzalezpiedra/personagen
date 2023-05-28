@@ -1,5 +1,5 @@
 # Indica la imagen base que se utilizará para construir la imagen de Docker
-FROM adoptopenjdk:11-jdk-hotspot
+FROM openjdk:16
 
 # Establece el directorio de trabajo en la imagen de Docker
 WORKDIR /app
