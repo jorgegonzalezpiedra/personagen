@@ -16,12 +16,12 @@ import lombok.NoArgsConstructor;
 @ApiModel(description = "${usuario.id.api.descripcion}")
 public class DatosBancarios {
 
-	@ApiModelProperty(value = "${usuario.nombre.id.descripcion}", position = 1, example = "19288")
+	@ApiModelProperty(value = "${usuario.id.descripcion}", position = 1, example = "19288")
 	@Id
 	private String id;
 
-	@ApiModelProperty(value = "${datosbancarios.entidad.api.descripcion}", position = 2, example = "Santander")
-	private String entidad;
+	@ApiModelProperty(value = "${datosbancarios.bic.api.descripcion}", position = 2, example = "Santander")
+	private String bic;
 
 	@ApiModelProperty(value = "${datosbancarios.iban.descripcion}", position = 3, example = "ES9130983026311148408095")
 	private String iban;

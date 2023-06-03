@@ -27,19 +27,19 @@ public class Randomizar {
 	public static Direccion direccionRandom() {
 
 		Direccion direccion = Direccion.builder().tipoVia("Calle").nombreVia(faker.address().streetName())
-				.numeroVia(faker.address().buildingNumber())
+				.numeroVia(String.valueOf(faker.number().numberBetween(1, 200)))
 				.numeroPiso(String.valueOf(faker.number().numberBetween(1, 20))).letraPiso(faker.regexify("[A-F]"))
 				.pais(faker.address().country()).codigoPostal(faker.address().zipCode())
-				.provincia(faker.address().state()).municipio(faker.address().city()).build();
+				.provincia(faker.address().state()).municipio(faker.address().cityName()).build();
 
 		return direccion;
 	}
 
 	public static DatosBancarios datosBancariosRandom() {
 
-		DatosBancarios datosBancarios = DatosBancarios.builder().entidad(faker.finance().bic())
-				.iban(faker.finance().iban()).numeroTarjeta(faker.finance().creditCard())
-				.fechaCaducidad(faker.business().creditCardExpiry()).cvv(cvvRandom()).nombreTitular(faker.name().fullName()).build();
+		DatosBancarios datosBancarios = DatosBancarios.builder().bic(faker.finance().bic()).iban(faker.finance().iban())
+				.numeroTarjeta(faker.finance().creditCard()).fechaCaducidad(faker.business().creditCardExpiry())
+				.cvv(cvvRandom()).nombreTitular(faker.name().fullName()).build();
 
 		return datosBancarios;
 	}

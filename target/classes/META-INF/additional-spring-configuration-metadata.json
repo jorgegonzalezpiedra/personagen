@@ -373,5 +373,15 @@
     "name": "direccion.controller.parent.uri",
     "type": "java.lang.String",
     "description": "A description for 'direccion.controller.parent.uri'"
+  },
+  {
+    "name": "datosbancarios.id.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.id.descripcion'"
+  },
+  {
+    "name": "datosbancarios.bic.api.descripcion",
+    "type": "java.lang.String",
+    "description": "A description for 'datosbancarios.bic.api.descripcion'"
   }
 ]}
