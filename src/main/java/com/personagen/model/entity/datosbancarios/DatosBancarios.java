@@ -20,7 +20,7 @@ public class DatosBancarios {
 	@Id
 	private String id;
 
-	@ApiModelProperty(value = "${datosbancarios.bic.api.descripcion}", position = 2, example = "Santander")
+	@ApiModelProperty(value = "${datosbancarios.bic.api.descripcion}", position = 2, example = "CAGLES2B754")
 	private String bic;
 
 	@ApiModelProperty(value = "${datosbancarios.iban.descripcion}", position = 3, example = "ES9130983026311148408095")
