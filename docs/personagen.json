@@ -1,0 +1,287 @@
+{
+   "swagger":"2.0",
+   "info":{
+      "description":"Api Documentation",
+      "version":"1.0",
+      "title":"Api Documentation",
+      "termsOfService":"urn:tos",
+      "contact":{
+         
+      },
+      "license":{
+         "name":"Apache 2.0",
+         "url":"http://www.apache.org/licenses/LICENSE-2.0"
+      }
+   },
+   "host":"personagen.fly.dev",
+   "basePath":"/",
+   "tags":[
+      {
+         "name":"datos-bancarios-controller",
+         "description":"Datos Bancarios Controller"
+      },
+      {
+         "name":"direccion-controller",
+         "description":"Direccion Controller"
+      },
+      {
+         "name":"usuario-controller",
+         "description":"Usuario Controller"
+      }
+   ],
+   "paths":{
+      "/address/random-address":{
+         "get":{
+            "tags":[
+               "direccion-controller"
+            ],
+            "summary":"Recuperar una direccion completamente aleatoria",
+            "operationId":"recuperarDireccionRandomUsingGET",
+            "produces":[
+               "application/json"
+            ],
+            "responses":{
+               "200":{
+                  "description":"Ok",
+                  "schema":{
+                     "$ref":"#/definitions/Direccion"
+                  }
+               },
+               "500":{
+                  "description":"Error interno del servidor"
+               }
+            }
+         }
+      },
+      "/bankdata/random-bankdata":{
+         "get":{
+            "tags":[
+               "datos-bancarios-controller"
+            ],
+            "summary":"Recuperar datos bancarios aleatorios",
+            "operationId":"recuperarDatosBancariosRandomUsingGET",
+            "produces":[
+               "application/json"
+            ],
+            "responses":{
+               "200":{
+                  "description":"Ok",
+                  "schema":{
+                     "$ref":"#/definitions/DatosBancarios"
+                  }
+               },
+               "500":{
+                  "description":"Error interno del servidor"
+               }
+            }
+         }
+      },
+      "/user/random-user":{
+         "get":{
+            "tags":[
+               "usuario-controller"
+            ],
+            "summary":"Recuperar un usuario con datos completamente aleatorios",
+            "operationId":"recuperarUsuarioRandomUsingGET",
+            "produces":[
+               "application/json"
+            ],
+            "responses":{
+               "200":{
+                  "description":"Ok",
+                  "schema":{
+                     "$ref":"#/definitions/Usuario"
+                  }
+               },
+               "500":{
+                  "description":"Error interno del servidor"
+               }
+            }
+         }
+      }
+   },
+   "definitions":{
+      "DatosBancarios":{
+         "type":"object",
+         "properties":{
+            "id":{
+               "type":"string",
+               "example":19288,
+               "description":"${usuario.nombre.id.descripcion}"
+            },
+            "entidad":{
+               "type":"string",
+               "example":"Santander",
+               "description":"entidad responsable de la tarjeta bancaria"
+            },
+            "iban":{
+               "type":"string",
+               "example":"ES9130983026311148408095",
+               "description":"${datosbancarios.iban.descripcion}"
+            },
+            "numeroTarjeta":{
+               "type":"string",
+               "example":4819950641113195,
+               "description":"numero de tarjeta bancaria"
+            },
+            "fechaCaducidad":{
+               "type":"string",
+               "example":"05/25",
+               "description":"fecha de caducidad"
+            },
+            "cvv":{
+               "type":"string",
+               "example":974,
+               "description":"cvv de la tarjeta bancaria"
+            },
+            "nombreTitular":{
+               "type":"string",
+               "example":"Jhon Doe Smith",
+               "description":"nombre del titular de la tarjeta bancaria"
+            }
+         },
+         "title":"DatosBancarios",
+         "description":"${usuario.id.api.descripcion}"
+      },
+      "Direccion":{
+         "type":"object",
+         "properties":{
+            "codigoPostal":{
+               "type":"string",
+               "example":19288,
+               "description":"codigo postal"
+            },
+            "comunidadAutonoma":{
+               "type":"string",
+               "example":19288,
+               "description":"comunidad autï¿½noma"
+            },
+            "id":{
+               "type":"string",
+               "example":19288,
+               "description":"id de la direccion"
+            },
+            "letraPiso":{
+               "type":"string",
+               "example":19288,
+               "description":"letra del piso"
+            },
+            "municipio":{
+               "type":"string",
+               "example":19288,
+               "description":"municipio"
+            },
+            "nombreVia":{
+               "type":"string",
+               "example":19288,
+               "description":"nombre de la vï¿½a"
+            },
+            "numeroPiso":{
+               "type":"string",
+               "example":19288,
+               "description":"numero del piso"
+            },
+            "numeroVia":{
+               "type":"string",
+               "example":19288,
+               "description":"numero de la vï¿½a"
+            },
+            "pais":{
+               "type":"string",
+               "example":19288,
+               "description":"pais"
+            },
+            "provincia":{
+               "type":"string",
+               "example":19288,
+               "description":"provincia"
+            },
+            "tipoVia":{
+               "type":"string",
+               "example":19288,
+               "description":"tipo de vï¿½a"
+            }
+         },
+         "title":"Direccion"
+      },
+      "Usuario":{
+         "type":"object",
+         "properties":{
+            "datosBancarios":{
+               "type":"array",
+               "description":"datosbancarios del usuario",
+               "items":{
+                  "$ref":"#/definitions/DatosBancarios"
+               }
+            },
+            "direcciones":{
+               "type":"array",
+               "description":"direcciones del usuario",
+               "items":{
+                  "$ref":"#/definitions/Direccion"
+               }
+            },
+            "id":{
+               "type":"string",
+               "example":19928371,
+               "description":"id del usuario"
+            },
+            "nombre":{
+               "type":"string",
+               "example":"Jhon",
+               "description":"nombre del usuario"
+            },
+            "apellido1":{
+               "type":"string",
+               "example":"Doe",
+               "description":"apellido1 del usuario"
+            },
+            "apellido2":{
+               "type":"string",
+               "example":"Smith",
+               "description":"apellido2 del usuario"
+            },
+            "dni":{
+               "type":"string",
+               "example":"12345678A",
+               "description":"dni del usuario"
+            },
+            "nie":{
+               "type":"string",
+               "example":"Y1234567A",
+               "description":"nie del usuario"
+            },
+            "nacionalidad":{
+               "type":"string",
+               "example":"American",
+               "description":"nacionalidad del usuario"
+            },
+            "email":{
+               "type":"string",
+               "example":"jhonDoe@mail.com",
+               "description":"email del usuario"
+            },
+            "fechaNacimiento":{
+               "type":"string",
+               "example":"01/12/1982",
+               "description":"fecha de nacimiento del usuario"
+            },
+            "nombreUsuario":{
+               "type":"string",
+               "example":"BigJhonDoe82",
+               "description":"nombre de usuario del usuario"
+            },
+            "telefonos":{
+               "type":"array",
+               "example":"916916871,646645633",
+               "description":"telefonos del usuario",
+               "items":{
+                  "type":"string"
+               }
+            }
+         },
+         "title":"Usuario",
+         "description":"${usuario.id.api.descripcion}"
+      }
+   }
+}
